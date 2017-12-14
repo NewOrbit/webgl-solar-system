@@ -1,0 +1,30 @@
+{
+  "name": "webgl-solar-system",
+  "version": "1.0.0",
+  "description": "Starter solar system in WebGL",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewOrbit/webgl-solar-system.git"
+  },
+  "keywords": [],
+  "author": "NewOrbit Ltd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NewOrbit/webgl-solar-system/issues"
+  },
+  "homepage": "https://github.com/NewOrbit/webgl-solar-system#readme",
+  "devDependencies": {
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.4",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "@types/three": "^0.84.35",
+    "three": "^0.88.0"
+  }
+}
